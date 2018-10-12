@@ -12,7 +12,7 @@ hooks:
       runas: root
   ApplicationStart:
     - location: hooks/application_start.sh
-      timeout: 300
+      timeout: 10000
       runas: root
   ValidateService:
     - location: hooks/validate_service.sh
